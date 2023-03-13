@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+.justify {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
-.App-logo {
-  height: 40vmin;
+.upper-case {
+  text-transform: uppercase;
+}
+
+.image-review {
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.image-review img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.fa-star {
+  color: #f9c338;
+  cursor: pointer;
+}
+
+.review {
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.button-show {
+  background-color: transparent;
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: inherit;
+}
+
+.custom-accordion .accordion-button,
+.custom-accordion .accordion-button:focus,
+.custom-accordion .accordion-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-card {
+  object-fit: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img-detail {
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.img-detail img {
+  max-width: 100%;
+  max-height: 600px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-perfil {
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
+.img-perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-book {
+  width: 3.4rem;
+  height: auto;
+}
+
+.image-book img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.form-select {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+
+.dropdown-toggle {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.dropdown-item {
+  border: none !important;
 }
