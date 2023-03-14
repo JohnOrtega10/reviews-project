@@ -26,7 +26,7 @@ const CardBook = ({ book }) => {
           <RatingStartStatic rating={book.rating} />
           <DelimitText
             text={book.summary}
-            maxLength={'203'}
+            maxLength={'210'}
             textStatic={true}
           />
         </div>
